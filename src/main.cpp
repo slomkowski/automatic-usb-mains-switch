@@ -13,7 +13,7 @@ extern "C" {
 #define RELAY_BIT PB3
 
 constexpr uint8_t TIMER_FREQUENCY_HZ = 100; // that is interrupt every 10 ms
-constexpr uint16_t RELAY_SHUTDOWN_TIMEOUT_MS = 5000;
+constexpr uint16_t RELAY_SHUTDOWN_TIMEOUT_MS = 30000;
 
 static inline void enableRelay() {
     PORTB |= _BV(RELAY_BIT);
