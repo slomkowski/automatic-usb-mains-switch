@@ -1,0 +1,9 @@
+# CAD and 3D printing files: treat as binary.
+# No diffs, no auto-merge (which would silently corrupt the geometry),
+# no end-of-line conversion. STEP is the important one here -- it is
+# plain ASCII, so git would otherwise handle it as text.
+*.f3d  binary
+*.step binary
+*.stp  binary
+*.stl  binary
+*.3mf  binary

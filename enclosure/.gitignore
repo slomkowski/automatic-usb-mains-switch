@@ -1,0 +1,7 @@
+# macOS (the CAD work is done on a Mac)
+.DS_Store
+
+# slicer output -- sources and STLs are tracked, G-code is not
+*.gcode
+*.bgcode
+*.gcode.3mf
